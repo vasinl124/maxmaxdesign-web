@@ -1,0 +1,45 @@
+.bio-section {
+  position: relative;
+  height: 80vh;
+  width: 100%;
+  background: url('/max.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left top;
+  color: white;
+}
+
+.bio-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+}
+
+.bio-col {
+  background: rgba(0, 0, 0, 0.95);
+  max-width: 50%;
+  padding: 30px;
+}
+
+.bio-description {
+  width: 90%;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.bio-section h2 {
+  font-size: 45px;
+}
+
+.bio-skills {
+  padding: 20px 0px 0px;
+}
+
+.bio-skill {
+  margin: 4px;
+  width: 45px;
+  height: 45px;
+  background-color: white;
+}

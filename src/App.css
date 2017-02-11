@@ -1,0 +1,46 @@
+.App {
+
+}
+
+.App-logo {
+  /*animation: App-logo-spin infinite 20s linear;*/
+  height: 200px;
+}
+
+.App-header {
+  text-align: center;
+  background-color: #222;
+  height: 100vh;
+  padding: 20px;
+  color: white;
+  position: relative;;
+}
+
+.App-header .learnmore-section {
+  left: 50%;
+  position: absolute;
+  bottom: 4%;
+  transform: translate(-50%, 0%);
+}
+
+.App-header h1 {
+  font-size: 80px;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+.App-header h2 {
+  font-weight: 300;
+}
+
+.App-center {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -40%);
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
