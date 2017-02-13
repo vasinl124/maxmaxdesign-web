@@ -1,6 +1,6 @@
 .bio-section {
   position: relative;
-  height: 80vh;
+  min-height: 80vh;
   width: 100%;
   background: url('/max.jpg');
   background-repeat: no-repeat;
@@ -13,12 +13,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 80vh;
+  min-height: 80vh;
 }
 
 .bio-col {
-  background: rgba(0, 0, 0, 0.95);
-  max-width: 50%;
+  background: rgba(0, 0, 0, 0.9);
+  max-width: 90%;
   padding: 30px;
 }
 
@@ -42,4 +42,56 @@
   width: 45px;
   height: 45px;
   background-color: white;
+}
+
+@media screen and (max-width: 768px) {
+  .bio-section {
+    background-position: 0px top;
+  }
+
+  .bio-row {
+    align-items: flex-end;
+    justify-content: center;
+    padding: 40px;
+  }
+
+  .bio-col {
+    background: rgba(0, 0, 0, 0.8);
+    max-width: 90%;
+  }
+}
+
+
+@media screen and (max-width: 736px) {
+  .bio-section {
+    background-size: 1200px;
+    background-position: 0px top;
+  }
+  .bio-row {
+    padding: 20px 0px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .bio-section {
+    background-size: 1200px;
+    background-position: -120px top;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .bio-section {
+    background-size: 1200px;
+    background-position: -120px top;
+  }
+
+  .bio-description {
+    width: 100%;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .bio-section h2 {
+    font-size: 35px;
+  }
 }

@@ -25,7 +25,7 @@ class Footer extends Component {
             </a>
           </div>
           <div className="col-sm-12">
-            <img src="/dreamaction.png" className="footer-logo" alt="logo" />
+            <img src="/maxmaxdesign-logo-black.png" className="footer-logo" alt="logo" />
             <div>MaxMaxDesign © {getCurentTime()}</div>
           </div>
         </div>

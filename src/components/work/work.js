@@ -1,15 +1,11 @@
 import React, { Component } from 'react';
 import './work.css';
 
-function getCurentTime(){
-  var now = new Date;
-  console.log(now)
-  return now.getFullYear()
-}
 class Work extends Component {
   render() {
     return (
       <section className="exp-section">
+        <div className="exp-background"></div>
         <div className="container">
           <div className="row">
             <div className="col-sm-2"></div>
@@ -38,7 +34,7 @@ class Work extends Component {
             </div>
           </div>
 
-          <hr width="50%" />
+          
 
           <div className="row">
             <div className="col-sm-2"></div>
@@ -65,7 +61,7 @@ class Work extends Component {
             </div>
           </div>
 
-          <hr width="50%" />
+
 
           <div className="row">
             <div className="col-sm-2"></div>
@@ -92,7 +88,7 @@ class Work extends Component {
             </div>
           </div>
 
-          <hr width="50%" />
+
 
         </div>
 

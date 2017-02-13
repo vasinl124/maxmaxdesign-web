@@ -1,11 +1,11 @@
 .footer-section {
-  background-color: lightgray;
   padding: 20px;
+  background-color: rgba(44, 72, 164, 0.4);
 }
 
 .footer-logo {
-  width: 60px;
-  height: 60px;
+  width: 55px;
+  height: 55px;
 }
 
 .footer-section div {
@@ -13,7 +13,7 @@
 }
 
 .footer-icon {
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
   margin: 4px 10px;
 }

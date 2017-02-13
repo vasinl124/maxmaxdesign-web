@@ -1,19 +1,65 @@
 .App {
-
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 .App-logo {
-  /*animation: App-logo-spin infinite 20s linear;*/
   height: 200px;
 }
 
 .App-header {
   text-align: center;
-  background-color: #222;
+  background-color: rgba(44, 72, 164, 0.7);
   height: 100vh;
   padding: 20px;
   color: white;
   position: relative;;
+}
+
+
+.max-navbar {
+  transition: background-color 0.5s ease-out;
+  background: transparent;
+  border: 0px;
+  box-shadow: inset 0 0px 0 rgba(255,255,255,.15), 0 0px 0px rgba(0,0,0,.075);
+}
+
+.max-navbar-scrolled {
+  transition: background-color 0.5s ease-out;
+  background: rgba(44, 72, 164, 0.9);
+}
+
+.max-navbar a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: color 0.2s ease-out;
+  text-shadow: 0 0 0;
+}
+
+.max-navbar a:hover {
+  color: #b3b6e2;
+}
+
+.max-navbar .active {
+  color: #b3b6e2;
+  transition: color 0.2s ease-out;
+}
+
+.max-navbar .navbar-toggle {
+  border: 0px;
+}
+.max-navbar .navbar-toggle:hover,
+.max-navbar .navbar-toggle:focus {
+  background-color: rgb(44, 72, 164);
+}
+
+.max-navbar .navbar-toggle .icon-bar {
+  background-color: white;
+}
+
+.max-navbar .navbar-collapse {
+  border: 0px;
+  box-shadow: inset 0 0px 0 rgba(255,255,255,.1);
 }
 
 .App-header .learnmore-section {
@@ -26,10 +72,10 @@
 .App-header h1 {
   font-size: 80px;
   text-transform: uppercase;
-  font-weight: 300;
 }
 
 .App-header h2 {
+  font-size: 50px;
   font-weight: 300;
 }
 
@@ -40,7 +86,57 @@
   transform: translate(-50%, -40%);
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.learnmore-button {
+  position: relative;
+  margin: auto;
+  top: -20px;
+  left: 0;
+  right: 0;
+  width: 40px;
+  height: 40px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  border-right: 3px solid white;
+  border-bottom: 3px solid white;
+
+  cursor: pointer;
+  transition: color 0.5s ease-out;
+}
+
+.learnmore-button:hover {
+  transition: color 0.5s ease-out;
+  border-right: 6px solid rgb(44, 72, 204);
+  border-bottom: 6px solid rgb(44, 72, 204);
+}
+
+
+/* Video BG */
+.video-container {
+  overflow: hidden;
+  padding: 0px;
+  width: 100%;
+  height: 100vh;
+}
+
+video {
+  position: absolute;
+  min-width: 100vw;
+  min-height: 100vh;
+  width: auto;
+  height: auto;
+  background-color: white;
+  z-index: -1000;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+
+@media screen and (max-width: 767px) {
+  .max-navbar {
+    background-color: rgb(44, 72, 164);
+  }
 }
