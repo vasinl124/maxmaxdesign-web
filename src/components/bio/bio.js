@@ -33,8 +33,8 @@ class Bio extends Component {
                   <img src="/handlebars.png" className="bio-skill img" alt="Handlebars" />
                 </div>
                 <br />
-                <div>
-                  Download Resume
+                <div >
+                  <a className="resume-link" href="/files/Resume_Vasin.pdf">Download Resume</a>
                 </div>
               </div>
 

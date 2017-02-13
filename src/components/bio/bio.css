@@ -29,6 +29,17 @@
   line-height: 22px;
 }
 
+.resume-link {
+  padding: 10px;
+  background: rgb(44, 72, 164);
+  color: white;
+}
+
+.resume-link:hover {
+  color: #b3b6e2;
+  text-decoration: none;
+}
+
 .bio-section h2 {
   font-size: 45px;
 }
