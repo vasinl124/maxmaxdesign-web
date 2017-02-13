@@ -56,7 +56,7 @@ class App extends Component {
         </Navbar>
 
         <section className="App-header video-container">
-          <video autoPlay muted loop preload="none" id="bgvid">
+          <video autoPlay muted loop preload="none" id="bgvid" poster="max-open-poster.png">
             {/* Free HD Stock-Footage and Motion Graphics by CyberWebFX https://www.youtube.com/c/CyberWebFX */}
             <source src="/videos/max-open.mp4" type="video/mp4" />
           </video>
@@ -105,7 +105,7 @@ class App extends Component {
   }
 
   handleScroll() {
-    if (document.body.scrollTop >= 50){
+    if (document.body.scrollTop >= 50 || document.documentElement.scrollTop >=50){
       this.setState({scrolled: 'max-navbar max-navbar-scrolled'});
     } else {
       this.setState({scrolled: 'max-navbar'});
