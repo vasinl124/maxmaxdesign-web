@@ -56,9 +56,10 @@ class App extends Component {
         </Navbar>
 
         <section className="App-header video-container">
-          <video autoPlay muted loop preload="none" id="bgvid" poster="max-open-poster.png">
+          <video autoPlay="autoplay" muted loop preload="none" id="bgvid" poster="max-open-poster.png">
             {/* Free HD Stock-Footage and Motion Graphics by CyberWebFX https://www.youtube.com/c/CyberWebFX */}
             <source src="/videos/max-open.mp4" type="video/mp4" />
+            <source src="/videos/max-open.webm" type="video/webm" />
           </video>
 
           <div className="App-center">
