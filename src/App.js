@@ -4,6 +4,7 @@ import { Nav, Navbar, NavItem } from 'react-bootstrap';
 import Scrollchor from 'react-scrollchor';
 import Footer from './components/footer/footer';
 import Bio from './components/bio/bio';
+import Exp from './components/exp/exp';
 import Work from './components/work/work';
 import Contact from './components/contact/contact';
 
@@ -77,12 +78,16 @@ class App extends Component {
           </div>
         </section>
 
+        {/* <div>
+          <Work />
+        </div> */}
+
         <div id="about">
           <Bio />
         </div>
 
         <div id="work">
-          <Work  />
+          <Exp  />
         </div>
 
         <div id="contact">
