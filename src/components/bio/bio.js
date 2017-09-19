@@ -35,6 +35,7 @@ class Bio extends Component {
                 <br />
                 <div >
                   <a className="resume-link" href="/files/Resume_Vasin.pdf">Download Resume</a>
+                  <a className="worksample-link" href="/files/worksamples_maxmax_vasin.pdf">Download Work Samples</a>
                 </div>
               </div>
 
