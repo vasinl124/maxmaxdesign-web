@@ -24,6 +24,7 @@ class Bio extends Component {
                 <div className="bio-skills">
                   <img src="/html5.png" className="bio-skill img" alt="html5" />
                   <img src="/js.png" className="bio-skill img" alt="JavaScript" />
+                  <img src="/react.jpg" className="bio-skill img" alt="React" />
                   <img src="/angular.png" className="bio-skill img" alt="Angular" />
                   <img src="/polymer.png" className="bio-skill img" alt="Polymer" />
                   <img src="/vuejs.png" className="bio-skill img" alt="Vuejs" />

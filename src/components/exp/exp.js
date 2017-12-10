@@ -26,6 +26,7 @@ class Exp extends Component {
               <div className="right">
                 <img src="/html5.png" className="work-skill img" alt="html5" />
                 <img src="/js.png" className="work-skill img" alt="JavaScript" />
+                <img src="/react.jpg" className="work-skill img" alt="Vuejs" />
                 <img src="/polymer.png" className="work-skill img" alt="Polymer" />
                 <img src="/angular.png" className="work-skill img" alt="Angular" />
                 <img src="/nodejs.png" className="work-skill img" alt="Nodejs" />
