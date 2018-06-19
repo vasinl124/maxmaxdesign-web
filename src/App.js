@@ -13,7 +13,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Navbar collapseOnSelect fixedTop
+        {/* <Navbar collapseOnSelect fixedTop
           className={this.state.scrolled}>
           <Navbar.Header>
             <Navbar.Brand>
@@ -54,7 +54,7 @@ class App extends Component {
               </NavItem>
             </Nav>
           </Navbar.Collapse>
-        </Navbar>
+        </Navbar> */}
 
         <section className="App-header video-container">
           <video autoPlay="autoplay" muted loop preload="none" id="bgvid" poster="max-open-poster.png">
